@@ -1,6 +1,6 @@
-# Project REST-Rant
+<h1> # Project REST-Rant </h1>
 
-REST-Rant is an app where users can review restaurants.
+<p><h2> REST-Rant is an app where users can review restaurants. </h2></p>
 
 
 |  Method  |           Path             |   Purpose  
@@ -16,3 +16,14 @@ REST-Rant is an app where users can review restaurants.
 |   POST   |      /places/id/rant       | Create a rant (comment) about a particular place 
 |  DELETE  |  /places/:id/rant/:rantId  | Delete a rant (comment) about a particular place 
 |    GET   |             *              | 404 page (matches any route not defined above)
+
+<h2> Database </h2>
+
+|Field|Type
+|---|---
+|_id|ObjectID 
+name | String
+city | String
+state | String
+cuisines | String
+pic | String
